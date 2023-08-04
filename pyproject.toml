@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wrap-response-model"
+version = "0.1.0"
+description = ""
+authors = ["YogiLiu <YogiLiu@outlook.com>"]
+readme = "README.md"
+packages = [{include = "wrap_response_model"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["standard"], version = "^0.100.1"}
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
